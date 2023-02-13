@@ -37,8 +37,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
 figure, header, nav, section, article, aside, footer, figcaption {
-  margin: 5px;
-  padding: 5px;
+  margin: 0;
+  padding: 0;
   border: 0;
   outline: 0;
 }
@@ -141,17 +141,17 @@ global styles
 */
 html,
 body {
-  background: skyblue;
+  background: beige;
   font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
-  background: darkblue;
+  background: beige;
   color: skyblue;
 }
 
 ::-moz-selection {
-  background: darkblue;
+  background: beige;
   color: skyblue;
 }
 
